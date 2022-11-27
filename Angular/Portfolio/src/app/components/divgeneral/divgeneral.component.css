@@ -1,0 +1,10 @@
+div#ContGral {
+    display: flex;
+    background-color: rgba(254, 254, 254, 0.3);
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    width: 1000px;
+    height: 2000px;
+  } 

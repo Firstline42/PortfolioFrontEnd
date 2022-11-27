@@ -4,18 +4,18 @@
        
     <!--Banner///////////////////////////-->
     <div id="Banner1" class="card mat-card">
-      <img alt="baner principal" src="./assets/Banner1.png">
+      <img alt="baner principal" [src]="miPortfolio?.imageBanner">
       <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>          
 
     </div>
 
     <div id="Title" class="card mat-card">
-      <div>RGR Portfolio</div>
+      <div>{{miPortfolio?.title}}</div>
       <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>          
     </div>
 
     <div id="Imagin1" class="card mat-card">
-      <img alt="image profile" src="./assets/RGR.jpg">
+      <img alt="image profile" [src]="miPortfolio?.imageProfile">
       <div class="btn-edit" aling="right"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>                 
     </div>
 

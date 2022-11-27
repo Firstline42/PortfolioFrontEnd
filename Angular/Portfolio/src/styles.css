@@ -36,177 +36,7 @@ html {
     100% {
       transform: translateX(25%);
     }
-  }
-  
-  div#ContGral {
-    display: flex;
-    background-color: rgba(254, 254, 254, 0.3);
-    padding: 30px;
-    border-radius: 20px;
-    margin: auto;
-    margin-top: 30px;
-    width: 1000px;
-    height: 1100px;
-  }
-
-  .navbar {
-    border-radius: 100px;
-    border: 4px solid rgb(255, 255, 255);
-    }
-    
-    .navbar img {
-      border-radius: 100px;
-      border: 2px solid rgb(255, 215, 0);
-     }
-    
-    .navbar p {
-    position: absolute;
-    color: white;
-    margin-top: -40px;
-    left: 120px;
-    font-style: italic;
-    }
-
-    div#RedesIn {
-        display: inline-block;
-        position: absolute;
-        width: 300px;
-        margin: 50;
-        left: 620px;
-      }
-      
-      div#RedesIn a {
-        border-radius: 100px;
-        margin: 5px;
-        border: 3px solid rgb(255, 215, 0);
-      }
-  
-  
-  .navbar .btn-edit {
-    font-size: 10px;
-    background: #00000089;
-    position: absolute;
-    text-align: center;
-    border: 1.5px solid rgb(0, 0, 0);
-    border-radius: 100px;
-    width: 20px;
-    height: 20px;
-    margin-left: 880px;
-    margin-top: 30px;
-  }
-  
-  
-  div#Banner1 {
-    position: relative;
-    background-color: white;
-    border: 4px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-top: 20px;
-    width: 940px;
-    height: 250px;
-  }
-  
-  div#Banner1 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-  }
-  
-  div#Banner1 .btn-edit {
-    font-size: 10px;
-    background: #00000089;
-    position: absolute;
-    text-align: center;
-    border: 1.5px solid rgb(0, 0, 0);
-    border-radius: 100px;
-    width: 20px;
-    height: 20px;
-    margin-left: 900px;
-    margin-top: 210px;
-  }
-  
-  
-  div#Title {
-    display: inline-block;
-    color: blue;
-    background: linear-gradient(135deg, #adf5ff 25%, transparent 25%) -23px 0/ 46px 46px, linear-gradient(225deg, #adf5ff 25%, transparent 25%) -23px 0/ 46px 46px, linear-gradient(315deg, #adf5ff 25%, transparent 25%) 0px 0/ 46px 46px, linear-gradient(45deg, #adf5ff 25%, #55f9ff 25%) 0px 0/ 46px 46px;
-    position: absolute;
-    margin-top: -200px;
-    margin-left: 30px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 70px;
-    font-style: italic;
-    border: 5px solid rgba(255, 255, 255);
-    border-radius: 100px;
-    width: 500px;
-  }
-  
-  div#Title .btn-edit {
-    font-size: 10px;
-    background: #00000089;
-    position: absolute;
-    text-align: center;
-    border: 1.5px solid rgb(0, 0, 0);
-    border-radius: 100px;
-    width: 20px;
-    height: 20px;
-    margin-left: 450px;
-    margin-top: -35px;
-  }
-  
-  
-  
-  
-  div#Imagin1 {
-    background-size: cover;
-    position: absolute;
-    margin-top: -70px;
-    margin-left: 100px;
-    border: 5px solid rgba(255, 255, 255);
-    border-radius: 100px;
-    border-radius: 100px;
-    width: 150px;
-    height: 150px;
-  }
-  
-  div#Imagin1 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 100px;
-  }
-  
-  div#Imagin1 .btn-edit {
-  
-    font-size: 10px;
-    background: #00000089;
-    position: absolute;
-    text-align: center;
-    border: 1.5px solid rgb(0, 0, 0);
-    border-radius: 100px;
-    width: 20px;
-    height: 20px;
-    margin-left: 130px;
-    margin-top: 120px;
-  }
-  
-  div#Imagin1 input {
-    font-size: 10px;
-    background: #00000089;
-    position: absolute;
-    text-align: center;
-    border: 1.5px solid rgb(0, 0, 0);
-    border-radius: 100px;
-    width: 200px;
-    height: 20px;
-    margin-left: 130px;
-    margin-top: 100px;
-  }
-  
-  
-  
+  }   
   
   div#Encabezado {
     background-color: transparent;
@@ -268,6 +98,128 @@ html {
     margin-left: 900px;
     margin-top: -30px;
   }
+
+ div#Experience {
+  background-color: transparent;  
+  display: inline-block;
+  position: absolute;
+  top: 875px; 
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 940px;
+  height: 250px;
+  padding: 20px;
+  }
+
+  div#Experience .btn-edit {
+    font-size: 10px;
+    background: #00000089;
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;   
+  } 
+
+  div#Experience .logo-image {
+    border-radius: 100px;
+    border: 2px solid rgb(254, 254, 254);
+    width: 200px;
+  }
+
+  div#experiencia .btn-edit {
+    font-size: 10px;
+    background: #00000089;
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    margin-left: 880px;
+    margin-top: 145px;
+  }
   
-  
+  div#Experience .list-info {
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    text-align: justify;
+    margin-top: -80px;
+    margin-left: 300px;
+  } 
+
+  div#formacion {
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    top: 1135px; 
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 940px;
+    height: 370px;
+    padding: 20px;
+  }
+
+  div#Formation .btn-edit {
+    font-size: 10px;
+    background: #00000089;
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    margin-left: 880px;
+    margin-top: 265px;   
+  }
+
+  div#formacion .logo-image-primero{
+    border-radius: 100px;
+    border: 2px solid rgb(254, 254, 254);
+    width: 200px;
+  }
+
+  div#Primero {
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    text-align: justify;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+
+  li#segundo {
+    margin-top: 80px;
+  }
+
+  div#formacion .logo-image-segundo{
+    border-radius: 100px;
+    border: 2px solid rgb(254, 254, 254);
+    width: 200px;
+  }
+
+  div#Segundo {
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    text-align: justify;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+
+  div#formacion .btn-edit {
+    font-size: 10px;
+    background: #00000089;
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+  }
   /* You can add global styles to this file, and also import other style files */

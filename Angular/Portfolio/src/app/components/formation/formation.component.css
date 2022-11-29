@@ -1,0 +1,73 @@
+div#Formation {
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    top: 1135px; 
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 940px;
+    height: 370px;
+    padding: 20px;
+  }
+
+  div#formacion .btn-edit {
+    font-size: 10px;
+    background: #00000089;
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    margin-left: 880px;
+    margin-top: 265px;   
+  }
+
+  div#Formation .logo-image-primero{
+    border-radius: 100px;
+    border: 2px solid rgb(254, 254, 254);
+    width: 200px;
+    height: 90px;
+  }
+
+  div#Primero {
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    text-align: justify;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+
+  li#segundo {
+    margin-top: 70px;
+  }
+
+  div#Formation .logo-image-segundo{
+    border-radius: 100px;
+    border: 2px solid rgb(0, 114, 227);
+    width: 200px;
+    height: 90px;
+  }
+
+  div#Segundo {
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    text-align: justify;
+    margin-top: -80px;
+    margin-left: 300px;
+  }
+
+  div#Formation .btn-edit {
+    font-size: 10px;
+    background: #00000089;
+    position: absolute;
+    text-align: center;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+  }

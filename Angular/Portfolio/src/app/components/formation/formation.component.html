@@ -1,0 +1,51 @@
+ <!--Lista Formacion////////////////////////////////////-->
+ <div id="Formation">
+    <div id="formacion" class="card-titles">
+     <h2>{{formacionList?.title}}</h2>     
+     <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>          
+   </div>
+
+ <div>
+   <ul class="items-list">
+     <li ngfor="let formation of formacionList">
+       <div class="data-container">
+         <a href="https://argentinaprograma.inti.gob.ar">
+           <div class="logo-image-conteiner">
+             <img alt="logo" class="logo-image-primero" src="./assets/img/ArgProg.jpg"/>
+           </div>
+           <div id="Primero" class="list.info">
+             <div>
+               <h3>{{formacionList?.school}}</h3>
+               <p>{{formacionList?.career}}</p>
+               <p><time>{{formacionList?.start}}</time> - <time>{{formacionList?.end}}</time></p>
+             </div>
+           </div>
+         </a>
+       </div>
+       <div class="data-control">
+         <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>          
+       </div>
+     </li>
+     <li id="segundo">
+       <div class="data-container">
+         <a href="https://abc.gob.ar/secretarias/areas/subsecretaria-de-educacion/educacion-secundaria/educacion-secundaria/direccion-provincial-de"> 
+           <div id="segundo" class="logo-image-container"> 
+             <img alt="logo" class="logo-image-segundo" src="./assets/img/Cens25.jpg"/>
+           </div>
+           <div id="Segundo" class="list-info">
+             <div>
+               <h3>{{educacionList?.school}}</h3>
+               <p>{{educacionList?.career}} <span>{{educacionList?.score}}</span></p>
+               <p><time>{{educacionList?.start}}</time> - <time>{{educacionList?.end}}</time></p>
+             </div>
+           </div>
+         </a>
+       </div>
+       <div class="data-control">
+         <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>                    
+       </div>
+     </li>        
+   </ul>
+ </div>
+</div>
+   

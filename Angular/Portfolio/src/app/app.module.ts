@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { DivgeneralComponent } from './components/divgeneral/divgeneral.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { FormationComponent } from './components/formation/formation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DivgeneralComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    ExperienceComponent,
+    FormationComponent
   ],
   imports: [
     BrowserModule,

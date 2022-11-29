@@ -1,0 +1,32 @@
+
+    <!--Lista Experiencias////////////////////////////-->
+    <div id="Experience" class="card mat-card">
+        <div id="experiencia">
+          <h2>{{experienciaList?.title}}</h2>
+          <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>          
+        </div>
+        <div>
+          <ul class="item-list">
+            <li ngfor="let experience of experienciaList">
+              <div class="data-container">
+                <a href="https://argentinaprograma.inti.gob.ar">
+                  <div class="logo-imagen-conteniner">
+                    <img alt="logo" class="logo-image" src="./assets/img/YoProg.jpg"/>
+                  </div>
+                  <div class="list-info">
+                    <div>
+                      <h3>{{experienciaList?.position}} <span>{{experienciaList?.score}}</span></h3>
+                      <p>{{experienciaList?.company}} <span>{{experienciaList?.workday}}</span></p>
+                      <h4>{{experienciaList?.start}}</h4>
+                      <h4>{{experienciaList?.location}}</h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="data-control">
+                <div class="btn-edit"><a href="#" class="btn-rigth"><i class="fa fa-pen" style="color: rgb(252, 252, 140);"></i></a></div>          
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>

@@ -1,7 +1,45 @@
-   {
+{ 
     
+"header": {
     "title": "RGR Portfolio",
     "imageBanner": "./assets/img/Banner1.png",
     "imageProfile": "./assets/img/RGR.png"
     
+},
+
+
+
+"experience": {
+    "logo": "./assets/img/YoProg.jpg",
+    "url": "#",
+    "title": "Experiencia",
+    "position": "Desarrolaldor Web Full Stack",
+    "company": "Argentina Programa -",
+    "workday": "Jornada parcial",
+    "score": "/80",
+    "start": "Julio 2022 - actualidad - 7 meses",
+    "location":	"Mar del Plata, Buenos Aires, Argentina"
+}, 
+
+"formation": {
+    "logo": "./assets/img/ArgProg.jpg",
+    "url": "#",
+    "title": "Formación",
+    "career": "Desarrolaldor Web Full Stack",
+    "school": "Argentina Programa",
+    "score": "/80",
+    "start": "Julio 2022 - actualidad",
+    "end": "7 meses"
+},
+
+"education": {
+    "logo": "./assets/img/Cens25.jpg",
+    "url": "#",
+    "career": "Bachiller, Formacion Administrativa y Ofimática",
+    "school": "CENS 25 MDP",
+    "score": "82",
+    "start": "1995",
+    "end": "1998"
+}
+
 }

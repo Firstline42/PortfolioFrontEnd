@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 })
 export class PortfolioService {
 
-  constructor(private http:HttpClient) {
+  constructor(private http: HttpClient) {
     
   }
   
